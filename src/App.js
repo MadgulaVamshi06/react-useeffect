@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import FetchData from './components/FetchData';
+import EventSubscriber from './components/EventSubscriber';
+import TitleUpdater from './components/TitleUpdater';
 import './App.css';
 
 function App() {
@@ -18,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <FetchData />
+        <EventSubscriber/>
+        <TitleUpdater/>
+      </main>
     </div>
   );
 }
